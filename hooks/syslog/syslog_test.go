@@ -1,9 +1,10 @@
 package logrus_syslog
 
 import (
-	"github.com/sirupsen/logrus"
 	"log/syslog"
 	"testing"
+
+	"github.com/Kamion/logrus"
 )
 
 func TestLocalhostAddAndPrint(t *testing.T) {
