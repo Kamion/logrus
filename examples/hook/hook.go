@@ -1,9 +1,6 @@
 package main
 
-import (
-	"github.com/sirupsen/logrus"
-	"gopkg.in/gemnasium/logrus-airbrake-hook.v2"
-)
+import "github.com/Kamion/logrus"
 
 var log = logrus.New()
 
